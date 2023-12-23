@@ -6,3 +6,8 @@ input[type="text"] {
   margin: 10px 0;
   display: block;
 }
+
+/* hide elements until Vue is loaded */
+[v-cloak] {
+  display: none;
+}
